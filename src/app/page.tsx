@@ -10,7 +10,7 @@ const prompts = [
 ];
 
 const windowsDownloadUrl =
-  "https://github.com/shreyashmeshram83-cell/MSME-Digital-Assistant/releases/latest/download/MSME-Digital-Assistant-Setup.exe";
+  "https://raw.githubusercontent.com/shreyashmeshram83-cell/MSME-Digital-Assistant/main/public/downloads/MSME%20Digital%20Assistant_0.2.0_x64-setup.exe";
 
 function Mark({ children }: { children: React.ReactNode }) {
   return <span className="mark">{children}</span>;
@@ -81,7 +81,6 @@ export default function Home() {
     <footer className="footer"><div className="footer-top"><div><a href="#home" className="logo footer-logo"><span className="logo-symbol">M</span><span>MSME Digital Assistant</span></a><p>A little more clarity for the<br/>people who keep business moving.</p></div><div className="footer-col"><b>PRODUCT</b><a href="#features">What it does</a><a href="#playground">AI assistant</a><a href="#download">Windows download</a><a href="#download">Release notes</a></div><div className="footer-col"><b>RESOURCES</b><a href="#features">Documentation</a><a href="#features">ERP capabilities</a><a href="#security">Security</a><a href="#playground">Keyboard shortcuts · Ctrl K</a></div><div className="footer-col"><b>GOOD TO KNOW</b><a href="#home">Repository updates <Arrow diagonal /></a><a href="#security">Privacy, in plain language</a><a href="#security">Contact &amp; support</a><span>MIT license · Early access</span></div></div><div className="footer-bottom"><span>© 2026 MSME Digital Assistant. Built thoughtfully, in India.</span><span><i/> ALL SYSTEMS OPERATIONAL</span><span>MADE FOR THE LONG RUN <b>✳</b></span></div></footer>
   </main>;
 }
-
 
 
 
